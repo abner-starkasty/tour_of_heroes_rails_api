@@ -29,10 +29,10 @@ This repository is part of the [Curso de Ruby on Rails 6 como API](https://www.y
 
 ```bash
 # clone the project
-git clone https://github.com/peimelo/curso_tour_of_heroes_api.git
+git clone https://github.com/abner-starkasty/tour_of_heroes_rails_api.git
 
 # enter the cloned directory
-cd curso_tour_of_heroes_api
+cd tour_of_heroes_rails_api
 
 # install Ruby on Rails dependencies
 bundle install --without production
@@ -42,6 +42,9 @@ rails db:create
 
 # create the tables
 rails db:migrate
+
+# run the seeds if you want the db populated
+rails db:seed
 
 # run the project
 rails s
