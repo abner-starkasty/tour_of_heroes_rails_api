@@ -5,3 +5,9 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
+Hero.delete_all # Antes de executar o seed deleta tudo
+
+5.times do
+  Hero.create name: Faker::Superhero.name
+end
