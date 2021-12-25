@@ -8,13 +8,13 @@ This repository is part of the [Curso de Ruby on Rails 6 como API](https://www.y
   <tr>
     <td>Ruby version</td>
     <td>
-      2.7.2
+      3.0.3
     </td>
   </tr>
   <tr>
     <td>Rails version</td>
     <td>
-      6.1.x
+      6.1.4.4
     </td>
   </tr>
   <tr>
